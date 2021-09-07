@@ -2,7 +2,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:dxrud="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner"
         xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
-        xmlns:dxrim="clr-namespace:DevExpress.Xpf.Reports.UserDesigner;assembly=DevExpress.Xpf.ReportDesigner.v16.2"
+        xmlns:dxrim="clr-namespace:DevExpress.Xpf.Reports.UserDesigner;assembly=DevExpress.Xpf.ReportDesigner.v21.1"
         xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
         x:Class="WpfApplication1.MainWindow"
         Title="MainWindow" Height="900" Width="1200">
