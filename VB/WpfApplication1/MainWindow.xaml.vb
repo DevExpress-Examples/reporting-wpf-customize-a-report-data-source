@@ -5,29 +5,29 @@ Imports DevExpress.Xpf.Reports.UserDesigner
 Imports DevExpress.XtraReports.UI
 
 Namespace WpfApplication1
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
-    Partial Public Class MainWindow
-        Inherits Window
+	''' <summary>
+	''' Interaction logic for MainWindow.xaml
+	''' </summary>
+	Partial Public Class MainWindow
+		Inherits Window
 
-        Public Sub New()
-            InitializeComponent()
-            designer.OpenDocument(New XtraReport1())
-        End Sub
+		Public Sub New()
+			InitializeComponent()
+			designer.OpenDocument(New XtraReport1())
+		End Sub
 
-        Private Sub ReplaceDataSource_ItemClick(ByVal sender As Object, ByVal e As DevExpress.Xpf.Bars.ItemClickEventArgs)
-            Dim newDataSource = New ObjectDataSource With {.DataSource = GetType(MyDataClass)}
-            Dim report As XtraReport = designer.ActiveDocument.Diagram.RootItem.XRObject
-            Dim oldDataSource = TryCast(report.DataSource, IComponent)
+		Private Sub ReplaceDataSource_ItemClick(ByVal sender As Object, ByVal e As DevExpress.Xpf.Bars.ItemClickEventArgs)
+			Dim newDataSource = New ObjectDataSource With {.DataSource = GetType(MyDataClass)}
+			Dim report As XtraReport = designer.ActiveDocument.Diagram.RootItem.XRObject
+			Dim oldDataSource = TryCast(report.DataSource, IComponent)
 
-            designer.ActiveDocument.MakeChanges(Sub(changes)
-                If oldDataSource IsNot Nothing Then
-                    changes.RemoveItem(oldDataSource)
-                End If
-                changes.AddItem(newDataSource)
-                changes.SetProperty(report, Function(x) x.DataSource, newDataSource)
-            End Sub)
-        End Sub
-    End Class
+			designer.ActiveDocument.MakeChanges(Sub(changes)
+				If oldDataSource IsNot Nothing Then
+					changes.RemoveItem(oldDataSource)
+				End If
+				changes.AddItem(newDataSource)
+				changes.SetProperty(report, Function(x) x.DataSource, newDataSource)
+			End Sub)
+		End Sub
+	End Class
 End Namespace
