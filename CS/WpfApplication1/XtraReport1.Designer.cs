@@ -85,7 +85,7 @@
             // 
             this.xrLabel1.AnchorHorizontal = DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left;
             this.xrLabel1.Dpi = 100F;
-            this.xrLabel1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold);
+            this.xrLabel1.Font = new DevExpress.Drawing.DXFont("Times New Roman", 18F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(78.74998F, 47.50001F);
             this.xrLabel1.Multiline = true;
             this.xrLabel1.Name = "xrLabel1";
@@ -198,7 +198,7 @@
             this.sqlDataSource1});
             this.DataMember = "Cars";
             this.DataSource = this.sqlDataSource1;
-            this.Margins = new System.Drawing.Printing.Margins(100, 100, 100, 99);
+            this.Margins = new DevExpress.Drawing.DXMargins(100, 100, 100, 99);
             this.Version = "16.2";
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 

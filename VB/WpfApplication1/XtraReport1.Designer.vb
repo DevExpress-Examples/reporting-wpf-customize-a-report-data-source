@@ -82,7 +82,7 @@ Namespace WpfApplication1
 			' 
 			Me.xrLabel1.AnchorHorizontal = DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left
 			Me.xrLabel1.Dpi = 100F
-			Me.xrLabel1.Font = New System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold)
+			Me.xrLabel1.Font = New DevExpress.Drawing.DXFont("Times New Roman", 18F, DevExpress.Drawing.DXFontStyle.Bold)
 			Me.xrLabel1.LocationFloat = New DevExpress.Utils.PointFloat(78.74998F, 47.50001F)
 			Me.xrLabel1.Multiline = True
 			Me.xrLabel1.Name = "xrLabel1"
@@ -189,7 +189,7 @@ Namespace WpfApplication1
 			Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() { Me.sqlDataSource1})
 			Me.DataMember = "Cars"
 			Me.DataSource = Me.sqlDataSource1
-			Me.Margins = New System.Drawing.Printing.Margins(100, 100, 100, 99)
+			Me.Margins = New DevExpress.Drawing.DXMargins(100, 100, 100, 99)
 			Me.Version = "16.2"
 			CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
