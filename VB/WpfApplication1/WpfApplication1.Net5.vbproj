@@ -63,7 +63,4 @@
     <PackageReference Include="DevExpress.Xpo" Version="22.1.*-*" />
     <PackageReference Include="DevExpress.Wpf.Themes.All" Version="22.1.*-*" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
 </Project>
