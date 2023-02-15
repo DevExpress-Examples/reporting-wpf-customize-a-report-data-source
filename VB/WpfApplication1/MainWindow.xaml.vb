@@ -2,13 +2,14 @@ Imports System.ComponentModel
 Imports System.Windows
 Imports DevExpress.DataAccess.ObjectBinding
 Imports DevExpress.XtraReports.UI
+Imports DevExpress.Xpf.Reports.UserDesigner
 
 Namespace WpfApplication1
 
     ''' <summary>
     ''' Interaction logic for MainWindow.xaml
     ''' </summary>
-    Public Partial Class MainWindow
+    Partial Public Class MainWindow
         Inherits Window
 
         Public Sub New()
@@ -21,13 +22,13 @@ Namespace WpfApplication1
             Dim report As XtraReport = Me.designer.ActiveDocument.Diagram.RootItem.XRObject
             Dim oldDataSource = TryCast(report.DataSource, IComponent)
             Me.designer.ActiveDocument.MakeChanges(Sub(changes)
-                If oldDataSource IsNot Nothing Then
-                    changes.RemoveItem(oldDataSource)
-                End If
+                                                       If oldDataSource IsNot Nothing Then
+                                                           changes.RemoveItem(oldDataSource)
+                                                       End If
 
-                changes.AddItem(newDataSource)
-                changes.SetProperty(report, Function(x) x.DataSource, newDataSource)
-            End Sub)
+                                                       changes.AddItem(newDataSource)
+                                                       changes.SetProperty(report, Function(x) x.DataSource, newDataSource)
+                                                   End Sub)
         End Sub
     End Class
 End Namespace
