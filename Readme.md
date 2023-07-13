@@ -6,7 +6,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* **[MainWindow.xaml.cs](./CS/WpfApplication1/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfApplication1/MainWindow.xaml.vb))**
+* **[MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))**
 <!-- default file list end -->
 # WPF Report Designer - How to customize a report data source in code
 
