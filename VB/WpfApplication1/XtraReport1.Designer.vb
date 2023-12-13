@@ -1,5 +1,7 @@
-﻿Namespace WpfApplication1
-    Partial Public Class XtraReport1
+Namespace WpfApplication1
+
+    Partial Class XtraReport1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,65 +12,65 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Designer generated code"
-
+#Region "Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
             Me.components = New System.ComponentModel.Container()
-            Dim selectQuery1 As New DevExpress.DataAccess.Sql.SelectQuery()
-            Dim column1 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression1 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim table1 As New DevExpress.DataAccess.Sql.Table()
-            Dim column2 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression2 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column3 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression3 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column4 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression4 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column5 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression5 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column6 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression6 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column7 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression7 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column8 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression8 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column9 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression9 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column10 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression10 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column11 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression11 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column12 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression12 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column13 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression13 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column14 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression14 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column15 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression15 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim column16 As New DevExpress.DataAccess.Sql.Column()
-            Dim columnExpression16 As New DevExpress.DataAccess.Sql.ColumnExpression()
-            Dim resources As New System.ComponentModel.ComponentResourceManager(GetType(XtraReport1))
+            Dim selectQuery1 As DevExpress.DataAccess.Sql.SelectQuery = New DevExpress.DataAccess.Sql.SelectQuery()
+            Dim column1 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression1 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim table1 As DevExpress.DataAccess.Sql.Table = New DevExpress.DataAccess.Sql.Table()
+            Dim column2 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression2 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column3 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression3 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column4 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression4 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column5 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression5 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column6 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression6 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column7 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression7 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column8 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression8 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column9 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression9 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column10 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression10 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column11 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression11 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column12 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression12 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column13 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression13 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column14 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression14 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column15 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression15 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim column16 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+            Dim columnExpression16 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+            Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WpfApplication1.XtraReport1))
             Me.Detail = New DevExpress.XtraReports.UI.DetailBand()
             Me.xrLabel1 = New DevExpress.XtraReports.UI.XRLabel()
             Me.TopMargin = New DevExpress.XtraReports.UI.TopMarginBand()
             Me.BottomMargin = New DevExpress.XtraReports.UI.BottomMarginBand()
             Me.sqlDataSource1 = New DevExpress.DataAccess.Sql.SqlDataSource(Me.components)
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me), System.ComponentModel.ISupportInitialize).BeginInit()
             ' 
             ' Detail
             ' 
-            Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() { Me.xrLabel1})
+            Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.xrLabel1})
             Me.Detail.Dpi = 100F
             Me.Detail.HeightF = 200F
             Me.Detail.Name = "Detail"
@@ -87,7 +89,7 @@
             Me.xrLabel1.SizeF = New System.Drawing.SizeF(497.7084F, 100.8333F)
             Me.xrLabel1.StylePriority.UseFont = False
             Me.xrLabel1.StylePriority.UseTextAlignment = False
-            Me.xrLabel1.Text = "Click the ""Replace DataSource"" button" & ControlChars.CrLf & "and view a new report data source in the R" & "eport Explorer"
+            Me.xrLabel1.Text = "Click the ""Replace DataSource"" button" & Global.Microsoft.VisualBasic.Constants.vbCrLf & "and view a new report data source in the R" & "eport Explorer"
             Me.xrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
             ' 
             ' TopMargin
@@ -177,27 +179,29 @@
             selectQuery1.Columns.Add(column16)
             selectQuery1.Name = "Cars"
             selectQuery1.Tables.Add(table1)
-            Me.sqlDataSource1.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() { selectQuery1})
+            Me.sqlDataSource1.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() {selectQuery1})
             Me.sqlDataSource1.ResultSchemaSerializable = resources.GetString("sqlDataSource1.ResultSchemaSerializable")
             ' 
             ' XtraReport1
             ' 
-            Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.Detail, Me.TopMargin, Me.BottomMargin})
-            Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() { Me.sqlDataSource1})
+            Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.TopMargin, Me.BottomMargin})
+            Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() {Me.sqlDataSource1})
             Me.DataMember = "Cars"
             Me.DataSource = Me.sqlDataSource1
             Me.Margins = New System.Drawing.Printing.Margins(100, 100, 100, 99)
             Me.Version = "16.2"
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
-
+            CType((Me), System.ComponentModel.ISupportInitialize).EndInit()
         End Sub
 
-        #End Region
-
+#End Region
         Private Detail As DevExpress.XtraReports.UI.DetailBand
+
         Private TopMargin As DevExpress.XtraReports.UI.TopMarginBand
+
         Private BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
+
         Private sqlDataSource1 As DevExpress.DataAccess.Sql.SqlDataSource
+
         Private xrLabel1 As DevExpress.XtraReports.UI.XRLabel
     End Class
 End Namespace
