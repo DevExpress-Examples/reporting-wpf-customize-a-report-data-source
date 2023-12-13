@@ -3,16 +3,13 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T432556)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* **[MainWindow.xaml.cs](./CS/WpfApplication1/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfApplication1/MainWindow.xaml.vb))**
-<!-- default file list end -->
-# WPF Report Designer - How to customize a report data source in code
+# Report Designer for WPF - How to Customize a Report Data Source in Code
 
+This example illustrates how to replace an existing component (data source) with a new one and assign it to a report in code.
 
-<p>This example illustrates how to replace an existing component (data source) with a new one and assign it to a report in code by calling the <strong>ReportDesignerDocument.MakeChanges()</strong> method.</p>
+## Files to Review
 
-<br/>
+* [MainWindow.xaml.cs](./CS/WpfApplication1/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfApplication1/MainWindow.xaml.vb))
 
 
