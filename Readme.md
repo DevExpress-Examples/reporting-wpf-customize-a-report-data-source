@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# WPF Report Designer - How to Customize a Report Data Source in Code
+# Reporting for WPF - How to Customize a Report Data Source in Code
 
 This example illustrates how to replace an existing component (data source) with a new one and assign it to a report.
 * [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
