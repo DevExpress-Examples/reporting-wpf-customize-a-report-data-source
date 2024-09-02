@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WpfApplication1</RootNamespace>
     <AssemblyName>WpfApplication1</AssemblyName>
@@ -27,7 +27,7 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Wpf.Reporting" Version="23.1.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Themes.Office2016White" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Reporting" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Themes.Office2016White" Version="24.2.*-*" />
   </ItemGroup>
 </Project>
