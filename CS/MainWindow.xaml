@@ -13,7 +13,7 @@
                 <dxb:RemoveAction ElementName="{x:Static dxrud:DefaultBarItemNames.SaveAs}" />
                 <dxb:InsertAction ContainerName="{x:Static dxrud:DefaultBarItemNames.EditGroup}">
                     <dxb:InsertAction.Element>
-                        <dxb:BarButtonItem LargeGlyph="{dx:DXImage Image=Delete_32x32.png}" Glyph="{dx:DXImage Image=Delete_16x16.png}" Content="Replace DataSource" ItemClick="ReplaceDataSource_ItemClick" />
+                        <dxb:BarButtonItem LargeGlyph="{dx:DXImage SvgImages/Dashboards/UpdateDataExtract.svg}" Glyph="{dx:DXImage SvgImages/Dashboards/UpdateDataExtract.svg}" Content="Replace Data Source" ItemClick="ReplaceDataSource_ItemClick" />
                     </dxb:InsertAction.Element>
                 </dxb:InsertAction>
             </dxrud:ReportDesigner.RibbonCustomizationActions>

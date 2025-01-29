@@ -29,6 +29,7 @@ namespace WpfApplication1 {
                 changes.AddItem(newDataSource);
                 changes.SetProperty(report, x => x.DataSource, newDataSource);
             });
+            MessageBox.Show("The data source was replaced from SQL to Object.\n\n Click Undo to cancel.");
         }
     }
 }

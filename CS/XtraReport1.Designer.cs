@@ -75,7 +75,6 @@
             // 
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLabel1});
-            this.Detail.Dpi = 100F;
             this.Detail.HeightF = 200F;
             this.Detail.Name = "Detail";
             this.Detail.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -84,7 +83,6 @@
             // xrLabel1
             // 
             this.xrLabel1.AnchorHorizontal = DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left;
-            this.xrLabel1.Dpi = 100F;
             this.xrLabel1.Font = new DevExpress.Drawing.DXFont("Times New Roman", 18F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(78.74998F, 47.50001F);
             this.xrLabel1.Multiline = true;
@@ -93,21 +91,18 @@
             this.xrLabel1.SizeF = new System.Drawing.SizeF(497.7084F, 100.8333F);
             this.xrLabel1.StylePriority.UseFont = false;
             this.xrLabel1.StylePriority.UseTextAlignment = false;
-            this.xrLabel1.Text = "Click the \"Replace DataSource\" button\r\nand view a new report data source in the R" +
-    "eport Explorer";
+            this.xrLabel1.Text = "Click the \"Replace Data Source\" button in the Ribbon and view a new report data s" +
+    "ource in the Report Explorer";
             this.xrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
             // TopMargin
             // 
-            this.TopMargin.Dpi = 100F;
-            this.TopMargin.HeightF = 100F;
             this.TopMargin.Name = "TopMargin";
             this.TopMargin.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             this.TopMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             // 
             // BottomMargin
             // 
-            this.BottomMargin.Dpi = 100F;
             this.BottomMargin.HeightF = 98.95834F;
             this.BottomMargin.Name = "BottomMargin";
             this.BottomMargin.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -117,7 +112,7 @@
             // 
             this.sqlDataSource1.Name = "sqlDataSource1";
             columnExpression1.ColumnName = "ID";
-            table1.MetaSerializable = "30|30|125|360";
+            table1.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"360\" />";
             table1.Name = "Cars";
             columnExpression1.Table = table1;
             column1.Expression = columnExpression1;
@@ -198,8 +193,8 @@
             this.sqlDataSource1});
             this.DataMember = "Cars";
             this.DataSource = this.sqlDataSource1;
-            this.Margins = new DevExpress.Drawing.DXMargins(100, 100, 100, 99);
-            this.Version = "16.2";
+            this.Margins = new DevExpress.Drawing.DXMargins(100F, 100F, 100F, 98.95834F);
+            this.Version = "24.2";
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
