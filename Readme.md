@@ -8,6 +8,11 @@
 # Reporting for WPF - How to Customize a Report Data Source in Code
 
 This example illustrates how to replace an existing component (data source) with a new one and assign it to a report.
+
+![End-User Report Designer - Change data source](images/reporting-change-data-source.png)
+
+## Files to Review
+
 * [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
 
 <!-- feedback -->

@@ -29,6 +29,8 @@ Namespace WpfApplication1
                                                        changes.AddItem(newDataSource)
                                                        changes.SetProperty(report, Function(x) x.DataSource, newDataSource)
                                                    End Sub)
+
+            MessageBox.Show("The data source was replaced from SQL to Object." & vbLf & vbLf & " Click Undo to cancel.")
         End Sub
     End Class
 End Namespace

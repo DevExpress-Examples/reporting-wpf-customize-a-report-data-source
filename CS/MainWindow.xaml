@@ -11,7 +11,7 @@
             <dxrud:ReportDesigner.RibbonCustomizationActions>
                 <dxb:RemoveAction ElementName="{x:Static dxrud:DefaultBarItemNames.Open}" />
                 <dxb:RemoveAction ElementName="{x:Static dxrud:DefaultBarItemNames.SaveAs}" />
-                <dxb:InsertAction ContainerName="{x:Static dxrud:DefaultBarItemNames.EditGroup}">
+                <dxb:InsertAction ContainerName="DevExpress_Xpf_Reports_Ribbon_rgData"  Index="1">
                     <dxb:InsertAction.Element>
                         <dxb:BarButtonItem LargeGlyph="{dx:DXImage SvgImages/Dashboards/UpdateDataExtract.svg}" Glyph="{dx:DXImage SvgImages/Dashboards/UpdateDataExtract.svg}" Content="Replace Data Source" ItemClick="ReplaceDataSource_ItemClick" />
                     </dxb:InsertAction.Element>
